@@ -1,0 +1,170 @@
+h1 {
+	color: #696969;
+}
+
+.swapvideo {
+	width: 50%;
+    float: left;
+    padding-right: 5px;
+}
+.swapvideo .swaptitle {
+	margin-bottom: 20px;
+}
+.swapvideo .overlayvideo {
+    position: relative;
+}
+.canvas-container {
+    position: absolute !important;
+}
+.swapvideo .overlayvideo .video-js {
+    width: 100%;
+}
+.swaptitle h2 {
+	text-align: center;
+}
+.swap_video_btn {
+    width: 100%;
+}
+.swap_video_btn .playbtninner {
+    width: auto;
+    margin: 0;
+}
+
+
+.swap_video_btn .play_block_center {
+    width: 100%;
+    overflow: hidden;
+    text-align: left;
+    margin-top: 15px;
+}
+
+.toolblock {
+    overflow: hidden;
+    float: left;
+}
+.toolblock .inner_tool {
+    width: 100%;
+    overflow: hidden;
+}
+.toolblock .inner_tool button {
+    width: 53px;
+    height: 50px;
+    line-height: 50px;
+    background: #fff;
+    border: 1px solid #cccccc;
+        border-right-color: rgb(204, 204, 204);
+        border-right-style: solid;
+        border-right-width: 1px;
+    border-right: none;
+    float: left;
+    padding: 0px;
+}
+.toolblock .inner_tool button:last-child {
+     border-right: 1px solid #cccccc;
+    }
+.toolblock .inner_tool button.active {
+    background: #E9E9E9;
+}
+.toolblock .inner_tool button .toolicon2 {
+    background-position: -36px 0;
+}
+.toolblock .inner_tool button .toolicon3 {
+    background-position: -72px 0;
+}
+.toolblock .inner_tool button .toolicon4 {
+    background-position: -108px 0;
+}
+.toolblock .inner_tool button i {
+    background: url("../images/toolimg.png") no-repeat;
+    width: 36px;
+    height: 36px;
+    display: block;
+    margin: 0 auto;
+}
+.bothplay .navbtn i {
+    width: 22px;
+    height: 17px;
+}
+.playblock .navbtn {
+    width: 32px;
+    height: 32px;
+    top: 4px;
+}
+.playblock .navbtn {
+    background: #00a6ff;
+    width: 36px;
+    height: 36px;
+    position: relative;
+    top: 2px;
+}
+.playblock button {
+    border: none;
+    padding: 0;
+}
+.playblock .playbtn {
+    width: 120px;
+    height: 37px;
+    line-height: 37px;
+    font-size: 15px;
+}
+
+.playbtninner .playblock .playbtn {    
+    background: #00a6ff;
+    width: 140px;
+    height: 40px;
+    line-height: 40px;
+    color: #fff;
+    font-size: 16px;
+    font-family: 'ralewaybold';
+}
+.playblock .navbtn .nexticon {
+    background: url("../images/next_arrow.png") no-repeat;
+        background-size: auto;
+    background-size: auto;
+    background-size: 100% auto;
+}
+.playbtninner .playblock .navbtn i {
+    margin: 0 auto;
+    width: 18px;
+    height: 15px;
+    display: block;
+}
+.playbtninner .playblock .navbtn i {
+    width: 15px;
+    height: 13px;
+}
+.playbtninner .playblock .navbtn .preicon {
+    background: url("../images/previous_arrow.png") no-repeat;
+        background-size: auto;
+    background-size: 100% auto;
+}
+.video_palybtnblock{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.video_palybtnblock .zoombtn{
+    margin: 10px 0;
+}
+.video_palybtnblock .zoombtn button{
+    padding: 6px 20px;
+    cursor: pointer;
+} 
+.video_palybtnblock .slowmotion h4{
+    font-size: 16px;
+    font-weight: 600;
+}
+.line-drawing-tools{
+    font-size: 15px;
+    color: #15b18a;
+}
+
+.slowmotionblock button{
+    background-color: #f3f3f3;
+    border:1px solid #ccc;
+    padding: 7px 15px;
+    cursor: pointer;
+}
+.slowmotionblock button.active{
+    background-color: #c2c2c2;
+}
